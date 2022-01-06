@@ -1,0 +1,18 @@
+.appBody{
+  display: flex;
+  margin: 0.5rem 10rem;
+  height: 90vh;  
+}
+
+
+@media screen and (max-width: 1030px ) {
+  .appBody{
+      width: 100vw;  
+      margin: 0 auto;
+      padding: 0;
+  }
+}
+
+
+
+

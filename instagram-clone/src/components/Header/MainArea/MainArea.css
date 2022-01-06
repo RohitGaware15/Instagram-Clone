@@ -1,0 +1,26 @@
+.mainArea{
+    /* background-color: blue; */
+    flex: 1;
+    /* max-height: 85vh; */
+    overflow-y: scroll;
+    margin-right: 0.5rem;
+}
+
+.mainArea::-webkit-scrollbar {
+    display: none;
+}
+
+.storyArea{
+    background-color: white;
+    /* height: 7rem; */
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;    
+}
+
+
+
+
+

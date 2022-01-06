@@ -1,0 +1,102 @@
+.postCard{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    margin: 1rem 0;
+    }
+    
+.postCard__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    }
+
+.postCard__header > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    }
+            
+.postCard__header > div > span {
+    font-weight: 200px;
+    cursor: pointer;
+    }
+
+.postCard__header > div > img {
+    border-radius: 50%;
+    }
+
+.postCard__header > div > span:hover {
+    text-decoration: underline;
+    }
+
+.postIcon {
+    font-size: 25px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    }
+
+.postAction{
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem;
+    }
+    
+.postcard__Content{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: auto;
+    }
+
+.lighter{
+    font-weight: lighter;
+    color: gray;
+    font-size: smaller;
+    }
+
+.postCard__Content {
+    font-weight: 400;
+    cursor: pointer;
+    }
+
+.postCard__Content :hover{
+    text-decoration: underline;
+    }
+
+.postCard__Content{
+    border-bottom: gray;
+    display: flex;
+    }
+
+.postCard_commentarea{
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid lightgray;
+    cursor: pointer;
+    }
+
+.postCard_commentarea > input{
+    flex: 1;
+    padding: 1rem ;
+    outline: none;
+    border: none;
+    }
+    
+.postCard_commentarea > a {
+    
+    color: #0194f6;
+    text-decoration: none;
+    font-weight: 500;
+    }
+    
+.a{
+    text-decoration:none;
+    color: black;
+}
+
+

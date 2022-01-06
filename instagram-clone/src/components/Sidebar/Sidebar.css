@@ -1,0 +1,54 @@
+.sidebar{
+    /* background-color: yellow; */
+    width: 20rem;    
+}
+
+.suggestionsArea{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.suggestionsArea > span{
+    color: #8f8e8f;
+    font-weight: 700;
+}
+
+.suggestionsArea > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.suggestion{
+    margin: 0.2rem 0.09rem;
+}
+
+/* .suggestion > div > name {
+    font-size: 10px;    
+} */
+
+.sidebarLinks{
+    margin: 1rem;
+}
+
+.sidebarLinks > span {
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 400;
+    color: #cecfce;
+}
+
+#footerCreator{
+    font-weight: 600;
+}
+
+/* mobile responsive page */
+@media screen and (max-width: 1030px ) {
+    .sidebar{
+        display: none;  
+    }
+}
+
+
